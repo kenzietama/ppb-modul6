@@ -1,0 +1,127 @@
+/*.modal-bg {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*    background-color: #000000;*/
+/*    opacity: 0.6;*/
+/*}*/
+
+
+/*.modal {*/
+/*    width: 25vw;*/
+/*    height: fit-content;*/
+/*    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);*/
+/*    border-radius: 20px;*/
+/*    background: #fff;*/
+/*    position: fixed;*/
+/*    top: 40%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 10px 50px 10px;*/
+/*}*/
+
+/*.modal-info {*/
+/*    height: fit-content;*/
+/*    width: fit-content;*/
+/*    align-items: center;*/
+/*    background: #ffffff;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    padding: 9px 12px;*/
+/*}*/
+
+
+/*.hidden {*/
+/*    display: none;*/
+/*}*/
+
+/*.close-button {*/
+/*    background-color: blue; !* Blue background *!*/
+/*    color: white; !* White text *!*/
+/*    border: none; !* Remove border *!*/
+/*    border-radius: 5px; !* Rounded corners *!*/
+/*    padding: 10px 15px; !* Padding for size *!*/
+/*    cursor: pointer; !* Pointer cursor on hover *!*/
+/*    margin-top: 20px; !* Space above the button *!*/
+/*    display: block; !* Makes the button a block element *!*/
+/*    text-align: center; !* Center the text *!*/
+/*    font-size: 16px; !* Font size *!*/
+/*}*/
+
+/*.close-button:hover {*/
+/*    background-color: darkblue; !* Darker blue on hover *!*/
+/*}*/
+
+
+.modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.modal {
+    width: 90vw; /* Increase the width to 90% for better mobile responsiveness */
+    max-width: 500px; /* Set a max width to avoid it being too wide on larger screens */
+    height: fit-content;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjusted to prevent stretching */
+    align-items: center;
+    padding: 10px; /* Adjusted padding for consistency */
+}
+
+.modal img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: round image corners */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.modal-info {
+    width: 100%; /* Make it fill the width of the modal */
+    padding: 9px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjusted to keep items at the top */
+    align-items: center; /* Center items */
+}
+
+.hidden {
+    display: none;
+}
+
+.close-button {
+    background-color: blue; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above the button */
+    display: block; /* Makes the button a block element */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Font size */
+    width: 100%; /* Full width for better usability */
+}
+
+.close-button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
